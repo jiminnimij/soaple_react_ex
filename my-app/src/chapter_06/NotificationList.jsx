@@ -42,14 +42,14 @@ class NotificationList extends React.Component {
                 });
                 clearInterval(timer);
             }
-        }, 1000);
+        }, 5000);
     }
 
-    componentWillUnmount() {
-        if (timer) {
-            clearInterval(timer);
-        }
-    }
+    // componentWillUnmount() {
+    //     if (timer) {
+    //         clearInterval(timer);
+    //     }
+    // }
 
     render() {
         return (
